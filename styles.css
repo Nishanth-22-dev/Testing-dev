@@ -1,0 +1,38 @@
+#dessert_name{
+    color:purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position : absolute;
+    top:40%;
+    left:15%;
+    transform: translate(-50%,-50%);
+}
+
+#gulab{
+    position: absolute;
+    top:47%;
+    left:16.7%;
+    transform:translate(-50%,-50%);
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gulabjamun{
+    position: absolute;
+    top:20%;
+    left:11%;
+    width:140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+}
+
+body{
+    background-color: bisque;
+}
+
+#buy-jamun{
+    position: absolute;
+    top:55%;
+    left:17%;
+}
