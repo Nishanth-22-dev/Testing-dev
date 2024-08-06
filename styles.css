@@ -4,7 +4,7 @@
     font-size: 24px;
     position : absolute;
     top:40%;
-    left:15%;
+    left:15.5%;
     transform: translate(-50%,-50%);
 }
 
@@ -31,8 +31,46 @@ body{
     background-color: bisque;
 }
 
-#buy-jamun{
+.buy-button {
     position: absolute;
-    top:55%;
-    left:17%;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+#cart-value{
+    position: absolute;
+    top: 5%;
+    left:95%;
+}
+
+#dessert-laddu{
+    color:purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position : absolute;
+    top:40%;
+    left:42.5%;
+    transform: translate(-50%,-50%);
+}
+
+#sweet-laddu{
+    position: absolute;
+    top:47%;
+    left:45.4%;
+    transform:translate(-50%,-50%);
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.laddoo{
+    position: absolute;
+    top:20%;
+    left:38%;
+    width:140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
 }
